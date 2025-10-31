@@ -42,9 +42,11 @@ async function afficherTaches() {
         <p>Status : <strong>${
           data[i].completed ? "Terminé" : "En cours"
         } </strong></p>
-        ${!data[i].completed ? `<button onclick="changerStatut('${
-          data[i].id
-        }')">Terminer la tache</button>` : ""}
+        ${
+          !data[i].completed
+            ? `<button onclick="changerStatut('${data[i].id}')">Terminer la tache</button>`
+            : ""
+        }
         
         
     `;
