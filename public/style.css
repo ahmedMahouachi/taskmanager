@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(209, 223, 235);
+    margin: 0;
+}
+
+#container{
+    width: 700px;
+    background-color: white;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#taskForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#btnSubmit{
+    padding: 8px 16px;
+    border: none;
+    background-color: rgb(67, 67, 231);
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#btnSubmit:hover {
+    background-color: rgb(20, 20, 190);
+}
